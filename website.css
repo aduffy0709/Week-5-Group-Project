@@ -1,0 +1,78 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(138, 144, 228);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content select option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: contents;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content select option:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  #mainheader {
+    position: relative;
+    background-color: rgb(138, 144, 228);
+    padding: 5% 25%;
+    color: white; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+  }
+
+  * {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+  }
+
+  .bulk {
+    position: relative; 
+    background-color: aquamarine;
+    width: 400px; 
+    margin: 0 auto; 
+  }
+
+.end {
+    background-color: pink;
+    width: 400px; 
+    margin: 0 auto; 
+    padding: 10px 0px; 
+}
+
+.end h4 {
+    margin: 0 auto; 
+}
+

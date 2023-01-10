@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="website.css" />
+</head>
+
+<body>
+    
+    <div class="bulk">
+        <h1 id="mainheader">Tip Calculator</h1>
+        <h4>Total Bill</h4>
+        <input type="text" id="bill">
+
+        <br>
+        <br>
+
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Quality of Service</button>
+            <div id="myDropdown" class="dropdown-content">
+                <select id="serviceQual">
+                    <option disabled selected value="0">-- Choose an Option --</option>
+                    <option value=".3">30&#37; &#45;Outstanding</option>
+                    <option value=".18">18&#37; &#45;Good</option>
+                    <option value=".10">10&#37; &#45;Bad</option>
+                </select>
+            </div>
+        </div>
+
+        <h4>Number of People</h4>
+        <input type="text" id="people">
+
+        <br>
+        <br>
+
+        <button id="submit">Submit</button>
+
+    </div>
+    <div class="end">
+        <h4> Total Per Person
+            <br>
+            <div id="result">0</div>
+        </h4>
+    </div>
+
+    <script src="website.js"></script>
+</body>
+
+</html>
