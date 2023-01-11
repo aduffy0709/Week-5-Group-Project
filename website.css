@@ -1,0 +1,128 @@
+  .dropbtn {
+    background-color: rgb(138, 144, 228);
+    color: white;
+  padding: 15px;
+  font-size: 16px;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(138, 144, 228);
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: rgb(142, 235, 219);
+    width: 1px;
+    min-width: 16px;
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content select option {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content select option:hover {background-color: rgb(138, 144, 228);}
+  
+  
+  .show {display:block;} 
+
+  #mainheader {
+    
+    border-style: groove;
+    border-color: rgb(2, 40, 73);
+    text-align: center;
+    position: relative;
+    left: 50px;
+    width: 195px;
+    background-color: rgb(138, 144, 228);
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 100px;
+    padding: 50px 100px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+
+  }
+  * {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .bulk {
+    border-color: rgb(2, 40, 73);
+    border-style: groove;
+    position: relative;
+    background-color: rgb(142, 235, 219);
+    left: 250px;
+    margin-left: 100px;
+    margin-top: -22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 395px;
+  }
+  .end {
+    border-color: rgb(2, 40, 73);
+    border-style: groove;
+    position: relative;
+    background-color: rgb(222, 214, 250);
+    margin-left: 300px;
+    margin-top: 0px;
+    left: 50px;
+    margin-right: 300px;
+    padding: 50px 100px;
+    width: 195px;
+  }
+
+  #persontotal {
+    position: relative;
+    background-color: rgb(138, 144, 228);
+    width: 395px;
+    left: -100px;
+  }
+
+  #serviceQual {
+    position: relative;
+    background-color: rgb(138, 144, 228);
+    border-style: none;
+    margin-top: 0px;
+    width: 148px;
+    left: 7px;
+    top: -2px;
+    margin-top: 0px;
+    width: 149px;
+    left: 6px;
+  }
+
+  p {
+    display:inline;
+}
+
+#submit, #reset {
+  border-style: none;
+  background-color: rgb(138, 144, 228);
+  color: white;
+  padding: 10px;
+}
+
+#result {
+  margin-bottom: 10px;
+}
